@@ -1,0 +1,4 @@
+flickr_photos:
+  cron: "30 2 */2 * *" # every 2 days at 14:30
+  class: "FlickrWorker"
+  queue: default
