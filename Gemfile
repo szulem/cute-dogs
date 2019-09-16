@@ -33,6 +33,9 @@ gem 'sidekiq-cron'
 
 gem 'acts_as_votable'
 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'jquery-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
