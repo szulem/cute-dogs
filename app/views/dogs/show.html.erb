@@ -1,0 +1,14 @@
+<p>
+  <%= image_tag @dog.image %>
+<br>
+
+<% if user_signed_in? %>
+  <%= link_to like_dog_path(@dog), method: :put do %>
+    <span class="glyphicon glyphicon-thumbs-up glyphicon-align-center"></span> <%= @dog.get_upvotes.size %>
+  <% end %>
+<% end %>
+</p>
+
+<br>
+
+<p><%= link_to "All dogs", dogs_path, class: "btn btn-default" %></p>
