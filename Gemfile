@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'flickraw'
+
+gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'sidekiq', '~> 6.0'
 gem 'sidekiq-cron'
 
